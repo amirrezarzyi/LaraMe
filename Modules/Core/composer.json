@@ -1,0 +1,23 @@
+{
+    "name": "DeAmiza/sample-core",
+    "description": "core module by Amirreza for sample project.",
+    "authors": [
+        {
+            "name": "Amirreza",
+            "email": "DevAmirrezaa@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Core\\": ""
+        }
+    }
+}
