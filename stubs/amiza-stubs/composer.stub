@@ -1,0 +1,23 @@
+{
+    "name": "$VENDOR$/sample-$LOWER_NAME$",
+    "description": "$LOWER_NAME$ module by Amirreza for sample project.",
+    "authors": [
+        {
+            "name": "$AUTHOR_NAME$",
+            "email": "$AUTHOR_EMAIL$"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\": ""
+        }
+    }
+}
